@@ -2,22 +2,23 @@ export const INITIAL_STATE = {
   locateModalVisible: false,
   shareModalVisible: false,
   viewReady: false,
+  layerDefinition: {},
   itemInfo: {}
 };
 
 export const TEXT = {
-  title: 'Esri Redux Example',
-  subtitle: 'Example with Redux, React, Esri, Sass, and more.'
+  title: "Bicycle Accidents Washington, D.C. 2012",
+  subtitle: "Blue Raster Techincal Project"
 };
 
 export const MAP_OPTIONS = {
-  basemap: 'streets-vector'
+  basemap: "streets-navigation-vector"
 };
 
 export const VIEW_OPTIONS = {
-  ui: { components: ['logo', 'attribution'] },
-  center: [-35.55, 26.53],
-  zoom: 2
+  ui: { components: ["logo", "attribution"] },
+  center: [-77.0369, 38.9072],
+  zoom: 10
 };
 
 export const URLS = {

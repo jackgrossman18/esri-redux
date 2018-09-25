@@ -6,3 +6,15 @@
   margin: 0;
   flex: 1;
 }
+
+#infoDiv{
+  top: 80px;
+  left: 20px;
+  position: absolute;
+  z-index: 100s;
+  opacity: 0.9;
+  background-color: whitesmoke;
+  padding: 8px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
